@@ -1,0 +1,39 @@
+Column Name,Description
+Delivery_person_ID,Unique identifier assigned to each delivery person.
+Delivery_person_Age,Age of the delivery person in years.
+Delivery_person_Ratings,Average customer ratings given to the delivery person (scale: 1-5).
+Restaurant_latitude,Latitude coordinate of the restaurant's location.
+Restaurant_longitude,Longitude coordinate of the restaurant's location.
+Delivery_location_latitude,Latitude coordinate of the customer's delivery location.
+Delivery_location_longitude,Longitude coordinate of the customer's delivery location.
+Order_Date,Date when the order was placed.
+Time_Orderd,Time when the order was placed by the customer.
+Time_Order_picked,Time when the order was picked up from the restaurant.
+Weather_conditions,"Weather conditions at the time of delivery (e.g., sunny, rainy)."
+Road_traffic_density,"Traffic density during delivery (e.g., low, medium, high)."
+Vehicle_condition,"Condition of the delivery vehicle, typically rated numerically."
+Type_of_order,"Type of order placed (e.g., beverages, snacks, main course)."
+Type_of_vehicle,"Type of vehicle used for delivery (e.g., bike, car)."
+multiple_deliveries,Number of deliveries handled by the delivery person in a single trip.
+Festival,"Indicates if the delivery occurred during a festival or holiday (e.g., Yes, No)."
+City,City where the delivery took place.
+Time_taken (min),"Total time taken to complete the delivery, measured in minutes."
+Restaurant ID,Unique identifier assigned to each restaurant.
+Restaurant Name,Name of the restaurant where the order originated.
+Country Code,Numeric or alphanumeric code representing the country.
+Country,Name of the country where the delivery took place.
+City.1,"Secondary city column, potentially duplicate or indicating a specific regional categorization."
+Address,Address of the delivery location.
+Locality,Specific locality or neighborhood of the delivery location.
+Locality Verbose,"Verbose description of the locality, including additional details."
+Cuisines,Types of cuisines offered by the restaurant.
+Average Cost for two,Average cost of a meal for two people at the restaurant.
+Currency,"Currency in which the average cost is measured (e.g., USD, INR)."
+Has Table booking,"Indicates whether the restaurant offers table bookings (e.g., Yes, No)."
+Has Online delivery,"Indicates whether the restaurant provides online delivery (e.g., Yes, No)."
+Is delivering now,"Indicates if the restaurant is currently delivering orders (e.g., Yes, No)."
+Price range,"Price range of the restaurant, typically rated numerically (e.g., 1-4)."
+Aggregate rating,Overall customer rating for the restaurant (scale: 1-5).
+Rating color,"Color code representing the aggregate rating (e.g., Green, Yellow, Red)."
+Rating text,"Textual description of the aggregate rating (e.g., Excellent, Average)."
+Votes,Number of customer votes received for the restaurant's ratings.
